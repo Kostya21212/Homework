@@ -9,6 +9,10 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^5.1.4"
+    "vite": "^5.1.4",
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "rippleui": "^1.12.1"
   }
 }
