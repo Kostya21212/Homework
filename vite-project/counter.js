@@ -1,4 +1,5 @@
-const API_PATH = {
+export function setupCounter(element) {
+  const API_PATH = {
     posts: "https://jsonplaceholder.typicode.com/posts",
     commentsById: function (id) {
         return `https://jsonplaceholder.typicode.com/posts/${id}/comments/`;
@@ -119,5 +120,4 @@ function createCommentsList(comments, commentsList) {
         commentsList.appendChild(listItem);
     });
 }
-
-
+}
